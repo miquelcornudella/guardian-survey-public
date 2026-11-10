@@ -1,0 +1,7 @@
+name: guardian-survey-on-push
+on: push
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "guardian survey test - workflow ran automatically for ${{ github.actor }}"
